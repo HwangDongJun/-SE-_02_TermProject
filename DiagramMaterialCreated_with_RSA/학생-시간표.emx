@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_NI7YkNM-EeiqXYArpdIGdw" name="사용자-시간표">
+  <eAnnotations xmi:id="_NI7YkdM-EeiqXYArpdIGdw" source="uml2.diagrams" references="_NI7YktM-EeiqXYArpdIGdw">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_NI7YktM-EeiqXYArpdIGdw" type="Freeform" name="Main"/>
+  </eAnnotations>
+  <packageImport xmi:id="_NI7Yk9M-EeiqXYArpdIGdw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_Qh3qUNM-EeiqXYArpdIGdw" name="협업1">
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Qh44cNM-EeiqXYArpdIGdw" name="상호작용1">
+      <eAnnotations xmi:id="_Qh5fgNM-EeiqXYArpdIGdw" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Qh5fgdM-EeiqXYArpdIGdw" type="Sequence" element="_Qh44cNM-EeiqXYArpdIGdw" name="학생-시간표" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_Qh5fgtM-EeiqXYArpdIGdw" element="_Qh44cNM-EeiqXYArpdIGdw" fontName="맑은 고딕" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Qh5fg9M-EeiqXYArpdIGdw" type="interaction_compartment">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_fSMrENM-EeiqXYArpdIGdw" element="_fSK14NM-EeiqXYArpdIGdw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_fSMrEtM-EeiqXYArpdIGdw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_fSMrE9M-EeiqXYArpdIGdw" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_fSMrFNM-EeiqXYArpdIGdw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_fSNSINM-EeiqXYArpdIGdw" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_fSNSIdM-EeiqXYArpdIGdw" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fSMrEdM-EeiqXYArpdIGdw" x="2715" y="713" width="2883" height="9525"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_d5ekoNM-EeiqXYArpdIGdw" element="_d5bhUNM-EeiqXYArpdIGdw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_d5ekotM-EeiqXYArpdIGdw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_d5eko9M-EeiqXYArpdIGdw" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_d5fLsNM-EeiqXYArpdIGdw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_d5fLsdM-EeiqXYArpdIGdw" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_d5fLstM-EeiqXYArpdIGdw" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d5ekodM-EeiqXYArpdIGdw" x="2698" y="740" width="2301" height="9525"/>
+              </children>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qh5fhNM-EeiqXYArpdIGdw" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qh5fhdM-EeiqXYArpdIGdw" x="793" y="793"/>
+          </children>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_honI0NM-EeiqXYArpdIGdw" element="_hohpQNM-EeiqXYArpdIGdw" source="_d5ekoNM-EeiqXYArpdIGdw" target="_fSMrENM-EeiqXYArpdIGdw" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_honI0tM-EeiqXYArpdIGdw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_honI1NM-EeiqXYArpdIGdw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_honI1dM-EeiqXYArpdIGdw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_honI09M-EeiqXYArpdIGdw" x="-87" y="-232"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_honI0dM-EeiqXYArpdIGdw" points="[0, 0, -108, 0]$[108, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hoo-ANM-EeiqXYArpdIGdw" id="1025:3201"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hoo-AdM-EeiqXYArpdIGdw" id="1066:0"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_horaQNM-EeiqXYArpdIGdw" element="_hoi3YNM-EeiqXYArpdIGdw" source="_fSMrENM-EeiqXYArpdIGdw" target="_d5ekoNM-EeiqXYArpdIGdw" fontName="맑은 고딕" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_horaQtM-EeiqXYArpdIGdw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_horaRNM-EeiqXYArpdIGdw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_hosBUNM-EeiqXYArpdIGdw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_horaQ9M-EeiqXYArpdIGdw" x="57" y="238"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_horaQdM-EeiqXYArpdIGdw" points="[0, 0, 108, 0]$[-108, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hosBUdM-EeiqXYArpdIGdw" id="1067:476"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hosBUtM-EeiqXYArpdIGdw" id="1068:0"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mwTbYNM-EeiqXYArpdIGdw" element="_mwMtsNM-EeiqXYArpdIGdw" source="_fSMrENM-EeiqXYArpdIGdw" target="_fSMrENM-EeiqXYArpdIGdw" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_mwTbYtM-EeiqXYArpdIGdw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mwUCcNM-EeiqXYArpdIGdw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mwUCcdM-EeiqXYArpdIGdw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mwTbY9M-EeiqXYArpdIGdw" x="-88" y="-1449"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mwTbYdM-EeiqXYArpdIGdw" points="[0, 0, 0, -25]$[0, 25, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mwVQkNM-EeiqXYArpdIGdw" id="1069:238"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mwVQkdM-EeiqXYArpdIGdw" id="1113:687"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_jMC1ANM_EeiqXYArpdIGdw" element="_jL7gQNM_EeiqXYArpdIGdw" source="_fSMrENM-EeiqXYArpdIGdw" target="_fSMrENM-EeiqXYArpdIGdw" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_jMC1AtM_EeiqXYArpdIGdw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jMC1BNM_EeiqXYArpdIGdw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jMDcENM_EeiqXYArpdIGdw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMC1A9M_EeiqXYArpdIGdw" x="-4" y="-1079"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jMC1AdM_EeiqXYArpdIGdw" points="[0, 0, 0, -14]$[0, 14, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jMEqMNM_EeiqXYArpdIGdw" id="1487:1032"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jMEqMdM_EeiqXYArpdIGdw" id="1591:370"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <ownedConnector xmi:id="_hoi3YtM-EeiqXYArpdIGdw">
+        <end xmi:id="_hoi3Y9M-EeiqXYArpdIGdw" role="_fSLc8NM-EeiqXYArpdIGdw"/>
+        <end xmi:id="_hoi3ZNM-EeiqXYArpdIGdw" role="_d5bhUdM-EeiqXYArpdIGdw"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_mwN70NM-EeiqXYArpdIGdw">
+        <end xmi:id="_mwN70dM-EeiqXYArpdIGdw" role="_fSLc8NM-EeiqXYArpdIGdw"/>
+        <end xmi:id="_mwN70tM-EeiqXYArpdIGdw" role="_fSLc8NM-EeiqXYArpdIGdw"/>
+      </ownedConnector>
+      <lifeline xmi:id="_d5bhUNM-EeiqXYArpdIGdw" name="학생" represents="_d5bhUdM-EeiqXYArpdIGdw" coveredBy="_hoiQUNM-EeiqXYArpdIGdw _hoi3YdM-EeiqXYArpdIGdw"/>
+      <lifeline xmi:id="_fSK14NM-EeiqXYArpdIGdw" name="시간표" represents="_fSLc8NM-EeiqXYArpdIGdw" coveredBy="_hoiQUdM-EeiqXYArpdIGdw _hoiQUtM-EeiqXYArpdIGdw _hoiQU9M-EeiqXYArpdIGdw _mwNUwNM-EeiqXYArpdIGdw _mwNUwdM-EeiqXYArpdIGdw _mwNUwtM-EeiqXYArpdIGdw _mwNUxNM-EeiqXYArpdIGdw _jL7gQdM_EeiqXYArpdIGdw _jL8HUNM_EeiqXYArpdIGdw _jL8HUdM_EeiqXYArpdIGdw _jL8HUtM_EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hoiQUNM-EeiqXYArpdIGdw" covered="_d5bhUNM-EeiqXYArpdIGdw" event="_iBh_IdM-EeiqXYArpdIGdw" message="_hohpQNM-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hoiQUdM-EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" event="_iBh_ItM-EeiqXYArpdIGdw" message="_hohpQNM-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_hoiQUtM-EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" start="_hoiQUdM-EeiqXYArpdIGdw" finish="_hoiQU9M-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mwNUwNM-EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" event="_npu9wNM-EeiqXYArpdIGdw" message="_mwMtsNM-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mwNUwdM-EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" event="_npu9wdM-EeiqXYArpdIGdw" message="_mwMtsNM-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mwNUwtM-EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" start="_mwNUwdM-EeiqXYArpdIGdw" finish="_mwNUxNM-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_mwNUxNM-EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" event="_mwNUw9M-EeiqXYArpdIGdw" execution="_mwNUwtM-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hoiQU9M-EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" event="_iBh_IdM-EeiqXYArpdIGdw" message="_hoi3YNM-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hoi3YdM-EeiqXYArpdIGdw" covered="_d5bhUNM-EeiqXYArpdIGdw" event="_iBh_ItM-EeiqXYArpdIGdw" message="_hoi3YNM-EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jL7gQdM_EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" message="_jL7gQNM_EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jL8HUNM_EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" message="_jL7gQNM_EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jL8HUdM_EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" start="_jL8HUNM_EeiqXYArpdIGdw" finish="_jL8HUtM_EeiqXYArpdIGdw"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_jL8HUtM_EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" event="_mwNUw9M-EeiqXYArpdIGdw" execution="_jL8HUdM_EeiqXYArpdIGdw"/>
+      <message xmi:id="_hohpQNM-EeiqXYArpdIGdw" name="시간표 조회" receiveEvent="_hoiQUdM-EeiqXYArpdIGdw" sendEvent="_hoiQUNM-EeiqXYArpdIGdw" connector="_hoi3YtM-EeiqXYArpdIGdw"/>
+      <message xmi:id="_hoi3YNM-EeiqXYArpdIGdw" name="시간표(과목명, 강의시간, 요일)[1 ... 0...1]" messageSort="reply" receiveEvent="_hoi3YdM-EeiqXYArpdIGdw" sendEvent="_hoiQU9M-EeiqXYArpdIGdw" connector="_hoi3YtM-EeiqXYArpdIGdw"/>
+      <message xmi:id="_mwMtsNM-EeiqXYArpdIGdw" name="시간표 생성" messageSort="asynchCall" receiveEvent="_mwNUwdM-EeiqXYArpdIGdw" sendEvent="_mwNUwNM-EeiqXYArpdIGdw" connector="_mwN70NM-EeiqXYArpdIGdw"/>
+      <message xmi:id="_jL7gQNM_EeiqXYArpdIGdw" name="시간표 삭제" messageSort="asynchCall" receiveEvent="_jL8HUNM_EeiqXYArpdIGdw" sendEvent="_jL7gQdM_EeiqXYArpdIGdw" connector="_mwN70NM-EeiqXYArpdIGdw"/>
+    </ownedBehavior>
+    <ownedAttribute xmi:id="_d5bhUdM-EeiqXYArpdIGdw" name="학생" type="_drJ0wNM-EeiqXYArpdIGdw"/>
+    <ownedAttribute xmi:id="_fSLc8NM-EeiqXYArpdIGdw" name="시간표" type="_e8LXwNM-EeiqXYArpdIGdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_drJ0wNM-EeiqXYArpdIGdw" name="학생"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e8LXwNM-EeiqXYArpdIGdw" name="시간표">
+    <ownedOperation xmi:id="_iBh_INM-EeiqXYArpdIGdw" name="시간표 생성"/>
+    <ownedOperation xmi:id="_npuWsNM-EeiqXYArpdIGdw" name="시간표 생성"/>
+    <ownedOperation xmi:id="_MTXNENM_EeiqXYArpdIGdw" name="시간표 삭제"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_iBh_IdM-EeiqXYArpdIGdw" name="오퍼레이션송신이벤트1" operation="_iBh_INM-EeiqXYArpdIGdw"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_iBh_ItM-EeiqXYArpdIGdw" name="오퍼레이션수신이벤트1" operation="_iBh_INM-EeiqXYArpdIGdw"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_mwNUw9M-EeiqXYArpdIGdw" name="실행이벤트1"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_npu9wNM-EeiqXYArpdIGdw" name="오퍼레이션송신이벤트2" operation="_npuWsNM-EeiqXYArpdIGdw"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_npu9wdM-EeiqXYArpdIGdw" name="오퍼레이션수신이벤트2" operation="_npuWsNM-EeiqXYArpdIGdw"/>
+  <packagedElement xmi:type="uml:DestructionEvent" xmi:id="_0YfvYNM-EeiqXYArpdIGdw" name="삭제이벤트1"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_MTX0INM_EeiqXYArpdIGdw" name="오퍼레이션송신이벤트3" operation="_MTXNENM_EeiqXYArpdIGdw"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_MTYbMNM_EeiqXYArpdIGdw" name="오퍼레이션수신이벤트3" operation="_MTXNENM_EeiqXYArpdIGdw"/>
+  <profileApplication xmi:id="_NI7YlNM-EeiqXYArpdIGdw">
+    <eAnnotations xmi:id="_NI7YldM-EeiqXYArpdIGdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NI7YltM-EeiqXYArpdIGdw">
+    <eAnnotations xmi:id="_NI7Yl9M-EeiqXYArpdIGdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NI7YmNM-EeiqXYArpdIGdw">
+    <eAnnotations xmi:id="_NI7YmdM-EeiqXYArpdIGdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>

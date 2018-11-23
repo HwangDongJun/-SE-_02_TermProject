@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_dSrN4tM_EeiqXYArpdIGdw" name="사용자-교과목">
+  <eAnnotations xmi:id="_dSrN49M_EeiqXYArpdIGdw" source="uml2.diagrams" references="_dSrN5NM_EeiqXYArpdIGdw">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_dSrN5NM_EeiqXYArpdIGdw" type="Freeform" name="Main"/>
+  </eAnnotations>
+  <packageImport xmi:id="_dSrN5dM_EeiqXYArpdIGdw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_UD7dANNYEei9P8GIm1d02A" name="협업1">
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_UD7dAdNYEei9P8GIm1d02A" name="상호작용1">
+      <eAnnotations xmi:id="_UD7dAtNYEei9P8GIm1d02A" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_UD7dA9NYEei9P8GIm1d02A" type="Sequence" element="_UD7dAdNYEei9P8GIm1d02A" name="학생-교과목" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_UD7dBNNYEei9P8GIm1d02A" element="_UD7dAdNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_UD7dBdNYEei9P8GIm1d02A" type="interaction_compartment">
+              <eAnnotations xmi:id="_sdXtENNYEei9P8GIm1d02A" source="Himetric"/>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_sdg3BtNYEei9P8GIm1d02A" element="_sdXtEtNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_sdg3B9NYEei9P8GIm1d02A" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_sdg3CNNYEei9P8GIm1d02A" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3CdNYEei9P8GIm1d02A" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3CtNYEei9P8GIm1d02A" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3C9NYEei9P8GIm1d02A" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdg3DNNYEei9P8GIm1d02A" x="10002" y="845" width="3465" height="9525"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_sdg3DdNYEei9P8GIm1d02A" element="_sdXtEdNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_sdg3DtNYEei9P8GIm1d02A" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_sdg3D9NYEei9P8GIm1d02A" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3ENNYEei9P8GIm1d02A" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3EdNYEei9P8GIm1d02A" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3EtNYEei9P8GIm1d02A" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdg3E9NYEei9P8GIm1d02A" x="-55" y="898" width="1666" height="9525"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_9t4ksNgQEeiuUu-8bt60pQ" element="_sdXtF9NYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9t4ksdgQEeiuUu-8bt60pQ" x="-1" y="1453" height="1084"/>
+              </children>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_UD7dBtNYEei9P8GIm1d02A" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UD7dB9NYEei9P8GIm1d02A" x="793" y="793"/>
+          </children>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdg3GNNYEei9P8GIm1d02A" element="_sdXtH9NYEei9P8GIm1d02A" source="_sdg3DdNYEei9P8GIm1d02A" target="_sdg3BtNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_sdg3GdNYEei9P8GIm1d02A" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3GtNYEei9P8GIm1d02A" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3G9NYEei9P8GIm1d02A" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdg3HNNYEei9P8GIm1d02A" y="-317"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdg3HdNYEei9P8GIm1d02A" points="[0, 0, -119, 0]$[119, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sdg3HtNYEei9P8GIm1d02A" id="-1615671389:3651"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sdg3H9NYEei9P8GIm1d02A" id="-278651441:0"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sdg3INNYEei9P8GIm1d02A" element="_sdXtINNYEei9P8GIm1d02A" source="_sdg3BtNYEei9P8GIm1d02A" target="_sdg3DdNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_sdg3IdNYEei9P8GIm1d02A" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3ItNYEei9P8GIm1d02A" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_sdg3I9NYEei9P8GIm1d02A" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sdg3JNNYEei9P8GIm1d02A" x="-8" y="263"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sdg3JdNYEei9P8GIm1d02A" points="[0, 0, 119, 0]$[-119, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sdg3JtNYEei9P8GIm1d02A" id="-1615671389:1084"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sdg3J9NYEei9P8GIm1d02A" id="-278651441:0"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <ownedConnector xmi:id="_sdg3ANNYEei9P8GIm1d02A">
+        <end xmi:id="_sdg3AdNYEei9P8GIm1d02A" role="_sdXtFNNYEei9P8GIm1d02A"/>
+        <end xmi:id="_sdg3AtNYEei9P8GIm1d02A" role="_sdXtFNNYEei9P8GIm1d02A"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_sdg3A9NYEei9P8GIm1d02A">
+        <end xmi:id="_sdg3BNNYEei9P8GIm1d02A" role="_sdXtE9NYEei9P8GIm1d02A"/>
+        <end xmi:id="_sdg3BdNYEei9P8GIm1d02A" role="_sdXtFNNYEei9P8GIm1d02A"/>
+      </ownedConnector>
+      <lifeline xmi:id="_sdXtEdNYEei9P8GIm1d02A" name="학생" represents="_sdXtE9NYEei9P8GIm1d02A" coveredBy="_sdXtFdNYEei9P8GIm1d02A _sdXtHdNYEei9P8GIm1d02A"/>
+      <lifeline xmi:id="_sdXtEtNYEei9P8GIm1d02A" name="성적정보" represents="_sdXtFNNYEei9P8GIm1d02A" coveredBy="_sdXtFtNYEei9P8GIm1d02A _sdXtF9NYEei9P8GIm1d02A _sdXtHNNYEei9P8GIm1d02A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sdXtFdNYEei9P8GIm1d02A" covered="_sdXtEdNYEei9P8GIm1d02A" message="_sdXtH9NYEei9P8GIm1d02A">
+        <event xmi:type="uml:SendOperationEvent" href="사용자-성적정보.emx#_h-9C4dNXEei9P8GIm1d02A?사용자-성적정보/오퍼레이션송신이벤트1?"/>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sdXtFtNYEei9P8GIm1d02A" covered="_sdXtEtNYEei9P8GIm1d02A" message="_sdXtH9NYEei9P8GIm1d02A">
+        <event xmi:type="uml:ReceiveOperationEvent" href="사용자-성적정보.emx#_h-9C4tNXEei9P8GIm1d02A?사용자-성적정보/오퍼레이션수신이벤트1?"/>
+      </fragment>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_sdXtF9NYEei9P8GIm1d02A" covered="_sdXtEtNYEei9P8GIm1d02A" start="_sdXtFtNYEei9P8GIm1d02A" finish="_sdXtHNNYEei9P8GIm1d02A"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sdXtHNNYEei9P8GIm1d02A" covered="_sdXtEtNYEei9P8GIm1d02A" message="_sdXtINNYEei9P8GIm1d02A">
+        <event xmi:type="uml:SendOperationEvent" href="사용자-성적정보.emx#_h-9C4dNXEei9P8GIm1d02A?사용자-성적정보/오퍼레이션송신이벤트1?"/>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sdXtHdNYEei9P8GIm1d02A" covered="_sdXtEdNYEei9P8GIm1d02A" message="_sdXtINNYEei9P8GIm1d02A">
+        <event xmi:type="uml:ReceiveOperationEvent" href="사용자-성적정보.emx#_h-9C4tNXEei9P8GIm1d02A?사용자-성적정보/오퍼레이션수신이벤트1?"/>
+      </fragment>
+      <message xmi:id="_sdXtH9NYEei9P8GIm1d02A" name="조회(학수번호)" receiveEvent="_sdXtFtNYEei9P8GIm1d02A" sendEvent="_sdXtFdNYEei9P8GIm1d02A" connector="_sdg3A9NYEei9P8GIm1d02A"/>
+      <message xmi:id="_sdXtINNYEei9P8GIm1d02A" name="교과목정보(교과목명, 개설학과, 개설학기, 학수번호, 학점, 담당교수, 수강정원)[1 ... 0...1]" messageSort="reply" receiveEvent="_sdXtHdNYEei9P8GIm1d02A" sendEvent="_sdXtHNNYEei9P8GIm1d02A" connector="_sdg3A9NYEei9P8GIm1d02A"/>
+    </ownedBehavior>
+    <ownedAttribute xmi:id="_sdXtE9NYEei9P8GIm1d02A" name="학생">
+      <type xmi:type="uml:Actor" href="사용자-성적정보.emx#_adeOcNNXEei9P8GIm1d02A?사용자-성적정보/학생?"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_sdXtFNNYEei9P8GIm1d02A" name="교과목">
+      <type xmi:type="uml:Class" href="사용자-성적정보.emx#_bS720NNXEei9P8GIm1d02A?사용자-성적정보/성적정보?"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_V8BnENNYEei9P8GIm1d02A" name="협업2">
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_V8BnEdNYEei9P8GIm1d02A" name="상호작용1">
+      <eAnnotations xmi:id="_V8BnEtNYEei9P8GIm1d02A" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_V8BnE9NYEei9P8GIm1d02A" type="Sequence" element="_V8BnEdNYEei9P8GIm1d02A" name="관리자-교과목_조회" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_V8BnFNNYEei9P8GIm1d02A" element="_V8BnEdNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_V8BnFdNYEei9P8GIm1d02A" type="interaction_compartment">
+              <eAnnotations xmi:id="_dFdH4NNYEei9P8GIm1d02A" source="Himetric"/>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_dFmR7NNYEei9P8GIm1d02A" element="_dFmR0dNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_dFmR7dNYEei9P8GIm1d02A" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_dFmR7tNYEei9P8GIm1d02A" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_dFmR79NYEei9P8GIm1d02A" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_dFmR8NNYEei9P8GIm1d02A" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_dFmR8dNYEei9P8GIm1d02A" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dFmR8tNYEei9P8GIm1d02A" x="9738" y="396" width="3465" height="12064"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_dFmR89NYEei9P8GIm1d02A" element="_dFmR0NNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_dFmR9NNYEei9P8GIm1d02A" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_dFmR9dNYEei9P8GIm1d02A" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_dFmR9tNYEei9P8GIm1d02A" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_dFmR99NYEei9P8GIm1d02A" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_dFmR-NNYEei9P8GIm1d02A" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dFmR-dNYEei9P8GIm1d02A" x="476" y="396" width="1957" height="12461"/>
+              </children>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_V8BnFtNYEei9P8GIm1d02A" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V8BnF9NYEei9P8GIm1d02A" x="793" y="793"/>
+          </children>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_u5ri0NgLEeiuUu-8bt60pQ" element="_u5iY4NgLEeiuUu-8bt60pQ" source="_dFmR89NYEei9P8GIm1d02A" target="_dFmR7NNYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_u5ri0tgLEeiuUu-8bt60pQ" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_u5ri1NgLEeiuUu-8bt60pQ" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_u5ri1dgLEeiuUu-8bt60pQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u5ri09gLEeiuUu-8bt60pQ" y="-317"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u5ri0dgLEeiuUu-8bt60pQ" points="[0, 0, -471, 0]$[471, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u51T0NgLEeiuUu-8bt60pQ" id="791:1351"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u51T0dgLEeiuUu-8bt60pQ" id="817:0"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_u51T1NgLEeiuUu-8bt60pQ" element="_u5iY5dgLEeiuUu-8bt60pQ" source="_dFmR7NNYEei9P8GIm1d02A" target="_dFmR89NYEei9P8GIm1d02A" fontName="맑은 고딕" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_u51T1tgLEeiuUu-8bt60pQ" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_u51T2NgLEeiuUu-8bt60pQ" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_u51T2dgLEeiuUu-8bt60pQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u51T19gLEeiuUu-8bt60pQ" x="3" y="285"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u51T1dgLEeiuUu-8bt60pQ" points="[0, 0, 471, 0]$[-471, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u51T2tgLEeiuUu-8bt60pQ" id="820:1322"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u51T29gLEeiuUu-8bt60pQ" id="821:0"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <ownedConnector xmi:id="_dFmR6dNYEei9P8GIm1d02A">
+        <end xmi:id="_dFmR6tNYEei9P8GIm1d02A" role="_dFmR09NYEei9P8GIm1d02A"/>
+        <end xmi:id="_dFmR69NYEei9P8GIm1d02A" role="_dFmR0tNYEei9P8GIm1d02A"/>
+      </ownedConnector>
+      <lifeline xmi:id="_dFmR0NNYEei9P8GIm1d02A" name="관리자" represents="_dFmR0tNYEei9P8GIm1d02A" coveredBy="_u5iY4dgLEeiuUu-8bt60pQ _u5iY5tgLEeiuUu-8bt60pQ"/>
+      <lifeline xmi:id="_dFmR0dNYEei9P8GIm1d02A" name="성적정보" represents="_dFmR09NYEei9P8GIm1d02A" coveredBy="_u5iY4tgLEeiuUu-8bt60pQ _u5iY49gLEeiuUu-8bt60pQ _u5iY5NgLEeiuUu-8bt60pQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u5iY4dgLEeiuUu-8bt60pQ" covered="_dFmR0NNYEei9P8GIm1d02A" event="_v1g48dgLEeiuUu-8bt60pQ" message="_u5iY4NgLEeiuUu-8bt60pQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u5iY4tgLEeiuUu-8bt60pQ" covered="_dFmR0dNYEei9P8GIm1d02A" event="_v1g48tgLEeiuUu-8bt60pQ" message="_u5iY4NgLEeiuUu-8bt60pQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_u5iY49gLEeiuUu-8bt60pQ" covered="_dFmR0dNYEei9P8GIm1d02A" start="_u5iY4tgLEeiuUu-8bt60pQ" finish="_u5iY5NgLEeiuUu-8bt60pQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u5iY5NgLEeiuUu-8bt60pQ" covered="_dFmR0dNYEei9P8GIm1d02A" event="_v1g48dgLEeiuUu-8bt60pQ" message="_u5iY5dgLEeiuUu-8bt60pQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u5iY5tgLEeiuUu-8bt60pQ" covered="_dFmR0NNYEei9P8GIm1d02A" event="_v1g48tgLEeiuUu-8bt60pQ" message="_u5iY5dgLEeiuUu-8bt60pQ"/>
+      <message xmi:id="_u5iY4NgLEeiuUu-8bt60pQ" name="조회" receiveEvent="_u5iY4tgLEeiuUu-8bt60pQ" sendEvent="_u5iY4dgLEeiuUu-8bt60pQ" connector="_dFmR6dNYEei9P8GIm1d02A"/>
+      <message xmi:id="_u5iY5dgLEeiuUu-8bt60pQ" name="조회목록(교과목명, 개설학과, 개설학기, 학수번호, 학점, 담당교수, 수강정원)[1 ... 0...1]" messageSort="reply" receiveEvent="_u5iY5tgLEeiuUu-8bt60pQ" sendEvent="_u5iY5NgLEeiuUu-8bt60pQ" connector="_dFmR6dNYEei9P8GIm1d02A"/>
+    </ownedBehavior>
+    <ownedAttribute xmi:id="_dFmR0tNYEei9P8GIm1d02A" name="관리자">
+      <type xmi:type="uml:Actor" href="사용자-성적정보.emx#_adeOcNNXEei9P8GIm1d02A?사용자-성적정보/학생?"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_dFmR09NYEei9P8GIm1d02A" name="교과목">
+      <type xmi:type="uml:Class" href="사용자-성적정보.emx#_bS720NNXEei9P8GIm1d02A?사용자-성적정보/성적정보?"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_sdXtIdNYEei9P8GIm1d02A" name="실행이벤트1"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_v1g48dgLEeiuUu-8bt60pQ" name="오퍼레이션송신이벤트1">
+    <operation href="사용자-성적정보.emx#_v1g48NgLEeiuUu-8bt60pQ?사용자-성적정보/성적정보/조회?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_v1g48tgLEeiuUu-8bt60pQ" name="오퍼레이션수신이벤트1">
+    <operation href="사용자-성적정보.emx#_v1g48NgLEeiuUu-8bt60pQ?사용자-성적정보/성적정보/조회?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_yZoo8ODGEeidDIbdNiE_Nw" name="협업3">
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_yZoo8eDGEeidDIbdNiE_Nw" name="상호작용1">
+      <eAnnotations xmi:id="_yZoo8uDGEeidDIbdNiE_Nw" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_yZoo8-DGEeidDIbdNiE_Nw" type="Sequence" element="_yZoo8eDGEeidDIbdNiE_Nw" name="관리자-교과목_등록" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_yZoo9ODGEeidDIbdNiE_Nw" element="_yZoo8eDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_yZoo9eDGEeidDIbdNiE_Nw" type="interaction_compartment">
+              <eAnnotations xmi:id="_3SAGEODGEeidDIbdNiE_Nw" source="Himetric"/>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_3SAGNODGEeidDIbdNiE_Nw" element="_3SAGEuDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_3SAGNeDGEeidDIbdNiE_Nw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_3SAGNuDGEeidDIbdNiE_Nw" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SAGN-DGEeidDIbdNiE_Nw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SAGOODGEeidDIbdNiE_Nw" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SAGOeDGEeidDIbdNiE_Nw" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SAGOuDGEeidDIbdNiE_Nw" x="10002" y="660" width="3465" height="12064"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_3SJ3EODGEeidDIbdNiE_Nw" element="_3SAGEeDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_3SJ3EeDGEeidDIbdNiE_Nw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_3SJ3EuDGEeidDIbdNiE_Nw" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SJ3E-DGEeidDIbdNiE_Nw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SJ3FODGEeidDIbdNiE_Nw" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SJ3FeDGEeidDIbdNiE_Nw" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SJ3FuDGEeidDIbdNiE_Nw" x="740" y="660" width="1957" height="12461"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_3SJ3F-DGEeidDIbdNiE_Nw" element="_3SAGHODGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SJ3GODGEeidDIbdNiE_Nw" x="-1" y="1453" height="1402"/>
+              </children>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_yZoo9uDGEeidDIbdNiE_Nw" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yZoo9-DGEeidDIbdNiE_Nw" x="793" y="793"/>
+          </children>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3SJ3H-DGEeidDIbdNiE_Nw" element="_3SAGLuDGEeidDIbdNiE_Nw" source="_3SJ3EODGEeidDIbdNiE_Nw" target="_3SAGNODGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3SJ3IODGEeidDIbdNiE_Nw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SJ3IeDGEeidDIbdNiE_Nw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SJ3IuDGEeidDIbdNiE_Nw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SJ3I-DGEeidDIbdNiE_Nw" y="-317"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3SJ3JODGEeidDIbdNiE_Nw" points="[0, 0, -119, 0]$[119, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3SJ3JeDGEeidDIbdNiE_Nw" id="-1158514137:1693"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3SJ3JuDGEeidDIbdNiE_Nw" id="745504545:0"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3SJ3J-DGEeidDIbdNiE_Nw" element="_3SAGKeDGEeidDIbdNiE_Nw" source="_3SAGNODGEeidDIbdNiE_Nw" target="_3SJ3EODGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3SJ3KODGEeidDIbdNiE_Nw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SJ3KeDGEeidDIbdNiE_Nw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3SJ3KuDGEeidDIbdNiE_Nw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SJ3K-DGEeidDIbdNiE_Nw" x="-39" y="345"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3SJ3LODGEeidDIbdNiE_Nw" points="[0, 0, 119, 0]$[-119, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3SJ3LeDGEeidDIbdNiE_Nw" id="-1158514137:1402"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3SJ3LuDGEeidDIbdNiE_Nw" id="745504545:0"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <ownedConnector xmi:id="_3SAGMeDGEeidDIbdNiE_Nw">
+        <end xmi:id="_3SAGMuDGEeidDIbdNiE_Nw" role="_3SAGFODGEeidDIbdNiE_Nw"/>
+        <end xmi:id="_3SAGM-DGEeidDIbdNiE_Nw" role="_3SAGE-DGEeidDIbdNiE_Nw"/>
+      </ownedConnector>
+      <lifeline xmi:id="_3SAGEeDGEeidDIbdNiE_Nw" name="관리자" represents="_3SAGE-DGEeidDIbdNiE_Nw" coveredBy="_3SAGGuDGEeidDIbdNiE_Nw _3SAGHuDGEeidDIbdNiE_Nw"/>
+      <lifeline xmi:id="_3SAGEuDGEeidDIbdNiE_Nw" name="성적정보" represents="_3SAGFODGEeidDIbdNiE_Nw" coveredBy="_3SAGG-DGEeidDIbdNiE_Nw _3SAGHODGEeidDIbdNiE_Nw _3SAGHeDGEeidDIbdNiE_Nw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3SAGGuDGEeidDIbdNiE_Nw" covered="_3SAGEeDGEeidDIbdNiE_Nw" message="_3SAGLuDGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:SendOperationEvent" href="사용자-성적정보.emx#_h-9C4dNXEei9P8GIm1d02A?사용자-성적정보/오퍼레이션송신이벤트1?"/>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3SAGG-DGEeidDIbdNiE_Nw" covered="_3SAGEuDGEeidDIbdNiE_Nw" message="_3SAGLuDGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:ReceiveOperationEvent" href="사용자-성적정보.emx#_h-9C4tNXEei9P8GIm1d02A?사용자-성적정보/오퍼레이션수신이벤트1?"/>
+      </fragment>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_3SAGHODGEeidDIbdNiE_Nw" covered="_3SAGEuDGEeidDIbdNiE_Nw" start="_3SAGG-DGEeidDIbdNiE_Nw" finish="_3SAGHeDGEeidDIbdNiE_Nw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3SAGHeDGEeidDIbdNiE_Nw" covered="_3SAGEuDGEeidDIbdNiE_Nw" message="_3SAGKeDGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:SendOperationEvent" href="사용자-성적정보.emx#_h-9C4dNXEei9P8GIm1d02A?사용자-성적정보/오퍼레이션송신이벤트1?"/>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3SAGHuDGEeidDIbdNiE_Nw" covered="_3SAGEeDGEeidDIbdNiE_Nw" message="_3SAGKeDGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:ReceiveOperationEvent" href="사용자-성적정보.emx#_h-9C4tNXEei9P8GIm1d02A?사용자-성적정보/오퍼레이션수신이벤트1?"/>
+      </fragment>
+      <message xmi:id="_3SAGKeDGEeidDIbdNiE_Nw" name="등록 완료[1 ... 0...1]" messageSort="reply" receiveEvent="_3SAGHuDGEeidDIbdNiE_Nw" sendEvent="_3SAGHeDGEeidDIbdNiE_Nw" connector="_3SAGMeDGEeidDIbdNiE_Nw"/>
+      <message xmi:id="_3SAGLuDGEeidDIbdNiE_Nw" name="등록(교과목명, 개설학과, 개설학기, 학수번호, 학점, 담당교수, 수강정원)" receiveEvent="_3SAGG-DGEeidDIbdNiE_Nw" sendEvent="_3SAGGuDGEeidDIbdNiE_Nw" connector="_3SAGMeDGEeidDIbdNiE_Nw"/>
+    </ownedBehavior>
+    <ownedAttribute xmi:id="_3SAGE-DGEeidDIbdNiE_Nw" name="관리자">
+      <type xmi:type="uml:Actor" href="사용자-성적정보.emx#_adeOcNNXEei9P8GIm1d02A?사용자-성적정보/학생?"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3SAGFODGEeidDIbdNiE_Nw" name="교과목">
+      <type xmi:type="uml:Class" href="사용자-성적정보.emx#_bS720NNXEei9P8GIm1d02A?사용자-성적정보/성적정보?"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_yplJcODGEeidDIbdNiE_Nw" name="협업4">
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_yplJceDGEeidDIbdNiE_Nw" name="상호작용1">
+      <eAnnotations xmi:id="_yplJcuDGEeidDIbdNiE_Nw" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_yplJc-DGEeidDIbdNiE_Nw" type="Sequence" element="_yplJceDGEeidDIbdNiE_Nw" name="관리자-교과목_수정" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_yplJdODGEeidDIbdNiE_Nw" element="_yplJceDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_yplJdeDGEeidDIbdNiE_Nw" type="interaction_compartment">
+              <eAnnotations xmi:id="_3hCnoODGEeidDIbdNiE_Nw" source="Himetric"/>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_3hMYo-DGEeidDIbdNiE_Nw" element="_3hCnouDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_3hMYpODGEeidDIbdNiE_Nw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_3hMYpeDGEeidDIbdNiE_Nw" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMYpuDGEeidDIbdNiE_Nw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMYp-DGEeidDIbdNiE_Nw" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMYqODGEeidDIbdNiE_Nw" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3hMYqeDGEeidDIbdNiE_Nw" x="10002" y="660" width="3465" height="12064"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_3hMYquDGEeidDIbdNiE_Nw" element="_3hCnoeDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_3hMYq-DGEeidDIbdNiE_Nw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_3hMYrODGEeidDIbdNiE_Nw" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMYreDGEeidDIbdNiE_Nw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMYruDGEeidDIbdNiE_Nw" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMYr-DGEeidDIbdNiE_Nw" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3hMYsODGEeidDIbdNiE_Nw" x="740" y="660" width="1957" height="12461"/>
+              </children>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_yplJduDGEeidDIbdNiE_Nw" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yplJd-DGEeidDIbdNiE_Nw" x="793" y="793"/>
+          </children>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3hMYyeDGEeidDIbdNiE_Nw" element="_3hCnvODGEeidDIbdNiE_Nw" source="_3hMYquDGEeidDIbdNiE_Nw" target="_3hMYo-DGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3hMYyuDGEeidDIbdNiE_Nw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMYy-DGEeidDIbdNiE_Nw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMYzODGEeidDIbdNiE_Nw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3hMYzeDGEeidDIbdNiE_Nw" y="-317"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3hMYzuDGEeidDIbdNiE_Nw" points="[0, 0, -461, 0]$[461, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3hMYz-DGEeidDIbdNiE_Nw" id="-1665228439:1296"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3hMY0ODGEeidDIbdNiE_Nw" id="2100268300:0"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3hMY0eDGEeidDIbdNiE_Nw" element="_3hCnwODGEeidDIbdNiE_Nw" source="_3hMYo-DGEeidDIbdNiE_Nw" target="_3hMYquDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3hMY0uDGEeidDIbdNiE_Nw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMY0-DGEeidDIbdNiE_Nw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3hMY1ODGEeidDIbdNiE_Nw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3hMY1eDGEeidDIbdNiE_Nw" x="-39" y="324"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3hMY1uDGEeidDIbdNiE_Nw" points="[0, 0, 461, 0]$[-461, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3hMY1-DGEeidDIbdNiE_Nw" id="-1665228439:1322"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3hMY2ODGEeidDIbdNiE_Nw" id="2100268300:0"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <ownedConnector xmi:id="_3hMYoODGEeidDIbdNiE_Nw">
+        <end xmi:id="_3hMYoeDGEeidDIbdNiE_Nw" role="_3hCnpODGEeidDIbdNiE_Nw"/>
+        <end xmi:id="_3hMYouDGEeidDIbdNiE_Nw" role="_3hCno-DGEeidDIbdNiE_Nw"/>
+      </ownedConnector>
+      <lifeline xmi:id="_3hCnoeDGEeidDIbdNiE_Nw" name="관리자" represents="_3hCno-DGEeidDIbdNiE_Nw" coveredBy="_3hCnr-DGEeidDIbdNiE_Nw _3hCns-DGEeidDIbdNiE_Nw"/>
+      <lifeline xmi:id="_3hCnouDGEeidDIbdNiE_Nw" name="성적정보" represents="_3hCnpODGEeidDIbdNiE_Nw" coveredBy="_3hCnsODGEeidDIbdNiE_Nw _3hCnseDGEeidDIbdNiE_Nw _3hCnsuDGEeidDIbdNiE_Nw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3hCnr-DGEeidDIbdNiE_Nw" covered="_3hCnoeDGEeidDIbdNiE_Nw" message="_3hCnvODGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:SendOperationEvent" href="사용자-성적정보.emx#_IGCHodNYEei9P8GIm1d02A?사용자-성적정보/오퍼레이션송신이벤트2?"/>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3hCnsODGEeidDIbdNiE_Nw" covered="_3hCnouDGEeidDIbdNiE_Nw" message="_3hCnvODGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:ReceiveOperationEvent" href="사용자-성적정보.emx#_IGCHotNYEei9P8GIm1d02A?사용자-성적정보/오퍼레이션수신이벤트2?"/>
+      </fragment>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_3hCnseDGEeidDIbdNiE_Nw" covered="_3hCnouDGEeidDIbdNiE_Nw" start="_3hCnsODGEeidDIbdNiE_Nw" finish="_3hCnsuDGEeidDIbdNiE_Nw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3hCnsuDGEeidDIbdNiE_Nw" covered="_3hCnouDGEeidDIbdNiE_Nw" message="_3hCnwODGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:SendOperationEvent" href="사용자-성적정보.emx#_IGCHodNYEei9P8GIm1d02A?사용자-성적정보/오퍼레이션송신이벤트2?"/>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3hCns-DGEeidDIbdNiE_Nw" covered="_3hCnoeDGEeidDIbdNiE_Nw" message="_3hCnwODGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:ReceiveOperationEvent" href="사용자-성적정보.emx#_IGCHotNYEei9P8GIm1d02A?사용자-성적정보/오퍼레이션수신이벤트2?"/>
+      </fragment>
+      <message xmi:id="_3hCnvODGEeidDIbdNiE_Nw" name="수정(교과목명, 개설학과, 개설학기, 학수번호, 학점, 담당교수, 수강정원)" receiveEvent="_3hCnsODGEeidDIbdNiE_Nw" sendEvent="_3hCnr-DGEeidDIbdNiE_Nw" connector="_3hMYoODGEeidDIbdNiE_Nw"/>
+      <message xmi:id="_3hCnwODGEeidDIbdNiE_Nw" name="수정 완료[1 ... 0...1]" messageSort="reply" receiveEvent="_3hCns-DGEeidDIbdNiE_Nw" sendEvent="_3hCnsuDGEeidDIbdNiE_Nw" connector="_3hMYoODGEeidDIbdNiE_Nw"/>
+    </ownedBehavior>
+    <ownedAttribute xmi:id="_3hCno-DGEeidDIbdNiE_Nw" name="관리자">
+      <type xmi:type="uml:Actor" href="사용자-성적정보.emx#_adeOcNNXEei9P8GIm1d02A?사용자-성적정보/학생?"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3hCnpODGEeidDIbdNiE_Nw" name="교과목">
+      <type xmi:type="uml:Class" href="사용자-성적정보.emx#_bS720NNXEei9P8GIm1d02A?사용자-성적정보/성적정보?"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_y-BvcODGEeidDIbdNiE_Nw" name="협업5">
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_y-BvceDGEeidDIbdNiE_Nw" name="상호작용1">
+      <eAnnotations xmi:id="_y-BvcuDGEeidDIbdNiE_Nw" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_y-Bvc-DGEeidDIbdNiE_Nw" type="Sequence" element="_y-BvceDGEeidDIbdNiE_Nw" name="관리자-교과목_삭제" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_y-BvdODGEeidDIbdNiE_Nw" element="_y-BvceDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_y-BvdeDGEeidDIbdNiE_Nw" type="interaction_compartment">
+              <eAnnotations xmi:id="_3vCnYODGEeidDIbdNiE_Nw" source="Himetric"/>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_3vLxWuDGEeidDIbdNiE_Nw" element="_3vCnYuDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_3vLxW-DGEeidDIbdNiE_Nw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_3vLxXODGEeidDIbdNiE_Nw" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxXeDGEeidDIbdNiE_Nw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxXuDGEeidDIbdNiE_Nw" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxX-DGEeidDIbdNiE_Nw" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3vLxYODGEeidDIbdNiE_Nw" x="10002" y="660" width="3465" height="12064"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_3vLxYeDGEeidDIbdNiE_Nw" element="_3vCnYeDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <eAnnotations xmi:id="_3vLxYuDGEeidDIbdNiE_Nw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                  <details xmi:id="_3vLxY-DGEeidDIbdNiE_Nw" key="LifelineLabelStyle" value="Represents Name Only"/>
+                </eAnnotations>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxZODGEeidDIbdNiE_Nw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxZeDGEeidDIbdNiE_Nw" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxZuDGEeidDIbdNiE_Nw" type="Parent"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3vLxZ-DGEeidDIbdNiE_Nw" x="740" y="660" width="1957" height="12461"/>
+              </children>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_y-BvduDGEeidDIbdNiE_Nw" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y-Bvd-DGEeidDIbdNiE_Nw" x="793" y="793"/>
+          </children>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3vLxkODGEeidDIbdNiE_Nw" element="_3vLxVeDGEeidDIbdNiE_Nw" source="_3vLxYeDGEeidDIbdNiE_Nw" target="_3vLxWuDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3vLxkeDGEeidDIbdNiE_Nw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxkuDGEeidDIbdNiE_Nw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxk-DGEeidDIbdNiE_Nw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3vLxlODGEeidDIbdNiE_Nw" y="-317"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3vLxleDGEeidDIbdNiE_Nw" points="[0, 0, -461, 0]$[461, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3vLxluDGEeidDIbdNiE_Nw" id="-752604048:1693"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3vLxl-DGEeidDIbdNiE_Nw" id="1479988972:0"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3vLxmODGEeidDIbdNiE_Nw" element="_3vLxUeDGEeidDIbdNiE_Nw" source="_3vLxWuDGEeidDIbdNiE_Nw" target="_3vLxYeDGEeidDIbdNiE_Nw" fontName="맑은 고딕" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_3vLxmeDGEeidDIbdNiE_Nw" type="MessageNameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxmuDGEeidDIbdNiE_Nw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_3vLxm-DGEeidDIbdNiE_Nw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3vLxnODGEeidDIbdNiE_Nw" x="93" y="305"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3vLxneDGEeidDIbdNiE_Nw" points="[0, 0, 461, 0]$[-461, 0, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3vLxnuDGEeidDIbdNiE_Nw" id="-752604048:1322"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3vLxn-DGEeidDIbdNiE_Nw" id="1479988972:0"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <ownedConnector xmi:id="_3vLxV-DGEeidDIbdNiE_Nw">
+        <end xmi:id="_3vLxWODGEeidDIbdNiE_Nw" role="_3vCnZODGEeidDIbdNiE_Nw"/>
+        <end xmi:id="_3vLxWeDGEeidDIbdNiE_Nw" role="_3vCnY-DGEeidDIbdNiE_Nw"/>
+      </ownedConnector>
+      <lifeline xmi:id="_3vCnYeDGEeidDIbdNiE_Nw" name="관리자" represents="_3vCnY-DGEeidDIbdNiE_Nw" coveredBy="_3vCndODGEeidDIbdNiE_Nw _3vCneODGEeidDIbdNiE_Nw"/>
+      <lifeline xmi:id="_3vCnYuDGEeidDIbdNiE_Nw" name="성적정보" represents="_3vCnZODGEeidDIbdNiE_Nw" coveredBy="_3vCndeDGEeidDIbdNiE_Nw _3vCnduDGEeidDIbdNiE_Nw _3vCnd-DGEeidDIbdNiE_Nw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3vCndODGEeidDIbdNiE_Nw" covered="_3vCnYeDGEeidDIbdNiE_Nw" message="_3vLxVeDGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:SendOperationEvent" href="사용자-성적정보.emx#_LRFuYdNYEei9P8GIm1d02A?사용자-성적정보/오퍼레이션송신이벤트3?"/>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3vCndeDGEeidDIbdNiE_Nw" covered="_3vCnYuDGEeidDIbdNiE_Nw" message="_3vLxVeDGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:ReceiveOperationEvent" href="사용자-성적정보.emx#_LRFuYtNYEei9P8GIm1d02A?사용자-성적정보/오퍼레이션수신이벤트3?"/>
+      </fragment>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_3vCnduDGEeidDIbdNiE_Nw" covered="_3vCnYuDGEeidDIbdNiE_Nw" start="_3vCndeDGEeidDIbdNiE_Nw" finish="_3vCnd-DGEeidDIbdNiE_Nw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3vCnd-DGEeidDIbdNiE_Nw" covered="_3vCnYuDGEeidDIbdNiE_Nw" message="_3vLxUeDGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:SendOperationEvent" href="사용자-성적정보.emx#_LRFuYdNYEei9P8GIm1d02A?사용자-성적정보/오퍼레이션송신이벤트3?"/>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3vCneODGEeidDIbdNiE_Nw" covered="_3vCnYeDGEeidDIbdNiE_Nw" message="_3vLxUeDGEeidDIbdNiE_Nw">
+        <event xmi:type="uml:ReceiveOperationEvent" href="사용자-성적정보.emx#_LRFuYtNYEei9P8GIm1d02A?사용자-성적정보/오퍼레이션수신이벤트3?"/>
+      </fragment>
+      <message xmi:id="_3vLxUeDGEeidDIbdNiE_Nw" name="삭제[1 ... 0...1]" messageSort="reply" receiveEvent="_3vCneODGEeidDIbdNiE_Nw" sendEvent="_3vCnd-DGEeidDIbdNiE_Nw" connector="_3vLxV-DGEeidDIbdNiE_Nw"/>
+      <message xmi:id="_3vLxVeDGEeidDIbdNiE_Nw" name="삭제(학수번호)" receiveEvent="_3vCndeDGEeidDIbdNiE_Nw" sendEvent="_3vCndODGEeidDIbdNiE_Nw" connector="_3vLxV-DGEeidDIbdNiE_Nw"/>
+    </ownedBehavior>
+    <ownedAttribute xmi:id="_3vCnY-DGEeidDIbdNiE_Nw" name="관리자">
+      <type xmi:type="uml:Actor" href="사용자-성적정보.emx#_adeOcNNXEei9P8GIm1d02A?사용자-성적정보/학생?"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3vCnZODGEeidDIbdNiE_Nw" name="교과목">
+      <type xmi:type="uml:Class" href="사용자-성적정보.emx#_bS720NNXEei9P8GIm1d02A?사용자-성적정보/성적정보?"/>
+    </ownedAttribute>
+  </packagedElement>
+  <profileApplication xmi:id="_dSrN5tM_EeiqXYArpdIGdw">
+    <eAnnotations xmi:id="_dSrN59M_EeiqXYArpdIGdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_dSrN6NM_EeiqXYArpdIGdw">
+    <eAnnotations xmi:id="_dSrN6dM_EeiqXYArpdIGdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_dSrN6tM_EeiqXYArpdIGdw">
+    <eAnnotations xmi:id="_dSrN69M_EeiqXYArpdIGdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>

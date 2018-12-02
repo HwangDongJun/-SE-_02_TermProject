@@ -1,0 +1,42 @@
+#managementsystem {
+    background-color: black;
+    opacity: 50%;
+    text-align: center;
+    position: relative;
+    padding: 0, auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+#std_login_box {
+    position: absolute;
+    left: 270px;
+    top: 240px;
+}
+
+#adm_login_box {
+    position: absolute;
+    left: 800px;
+    top: 240px;
+}
+
+#std_login_submit, #adm_login_submit {
+    width: 280px;
+    height: 280px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 12px;
+}

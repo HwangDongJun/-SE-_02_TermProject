@@ -234,7 +234,7 @@
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_msy5TODEEeidDIbdNiE_Nw" covered="_msy5QuDEEeidDIbdNiE_Nw" start="_msy5S-DEEeidDIbdNiE_Nw" finish="_msy5TeDEEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_msy5TeDEEeidDIbdNiE_Nw" covered="_msy5QuDEEeidDIbdNiE_Nw" event="_h-9C4dNXEei9P8GIm1d02A" message="_msy5XeDEEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_msy5TuDEEeidDIbdNiE_Nw" covered="_msy5QeDEEeidDIbdNiE_Nw" event="_h-9C4tNXEei9P8GIm1d02A" message="_msy5XeDEEeidDIbdNiE_Nw"/>
-      <message xmi:id="_msy5WuDEEeidDIbdNiE_Nw" name="등록(년도/학기, 학수번호, 교과목명, 이수구분, 학점, 성적평가, 등급/평점)" receiveEvent="_msy5S-DEEeidDIbdNiE_Nw" sendEvent="_msy5SuDEEeidDIbdNiE_Nw" connector="_ms8qQeDEEeidDIbdNiE_Nw"/>
+      <message xmi:id="_msy5WuDEEeidDIbdNiE_Nw" name="등록(학번, 년도/학기, 학수번호, 교과목명, 이수구분, 학점, 성적평가, 등급/평점)" receiveEvent="_msy5S-DEEeidDIbdNiE_Nw" sendEvent="_msy5SuDEEeidDIbdNiE_Nw" connector="_ms8qQeDEEeidDIbdNiE_Nw"/>
       <message xmi:id="_msy5XeDEEeidDIbdNiE_Nw" name="등록 정보 [1 ... 0..1]" messageSort="reply" receiveEvent="_msy5TuDEEeidDIbdNiE_Nw" sendEvent="_msy5TeDEEeidDIbdNiE_Nw" connector="_ms8qQeDEEeidDIbdNiE_Nw"/>
     </ownedBehavior>
     <ownedAttribute xmi:id="_msy5Q-DEEeidDIbdNiE_Nw" name="관리자" type="_adeOcNNXEei9P8GIm1d02A"/>
@@ -303,7 +303,7 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_m97sn-DEEeidDIbdNiE_Nw" covered="_m9yiouDEEeidDIbdNiE_Nw" event="_IGCHodNYEei9P8GIm1d02A" message="_m97spuDEEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_m97soODEEeidDIbdNiE_Nw" covered="_m9yioeDEEeidDIbdNiE_Nw" event="_IGCHotNYEei9P8GIm1d02A" message="_m97spuDEEeidDIbdNiE_Nw"/>
       <message xmi:id="_m97spuDEEeidDIbdNiE_Nw" name="수정 완료[1 ... 0...1]" messageSort="reply" receiveEvent="_m97soODEEeidDIbdNiE_Nw" sendEvent="_m97sn-DEEeidDIbdNiE_Nw" connector="_m97sruDEEeidDIbdNiE_Nw"/>
-      <message xmi:id="_m97sreDEEeidDIbdNiE_Nw" name="수정(년도/학기, 학수번호, 교과목명, 이수구분, 학점, 성적평가, 등급/평점)" receiveEvent="_m97sneDEEeidDIbdNiE_Nw" sendEvent="_m97snODEEeidDIbdNiE_Nw" connector="_m97sruDEEeidDIbdNiE_Nw"/>
+      <message xmi:id="_m97sreDEEeidDIbdNiE_Nw" name="수정(학번, 년도/학기, 학수번호, 교과목명, 이수구분, 학점, 성적평가, 등급/평점)" receiveEvent="_m97sneDEEeidDIbdNiE_Nw" sendEvent="_m97snODEEeidDIbdNiE_Nw" connector="_m97sruDEEeidDIbdNiE_Nw"/>
     </ownedBehavior>
     <ownedAttribute xmi:id="_m97skODEEeidDIbdNiE_Nw" name="관리자" type="_adeOcNNXEei9P8GIm1d02A"/>
     <ownedAttribute xmi:id="_m97skeDEEeidDIbdNiE_Nw" name="성적" type="_bS720NNXEei9P8GIm1d02A"/>
@@ -370,7 +370,7 @@
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_nR5xhuDEEeidDIbdNiE_Nw" covered="_nR5xcuDEEeidDIbdNiE_Nw" start="_nR5xheDEEeidDIbdNiE_Nw" finish="_nR5xh-DEEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nR5xh-DEEeidDIbdNiE_Nw" covered="_nR5xcuDEEeidDIbdNiE_Nw" event="_LRFuYdNYEei9P8GIm1d02A" message="_nR5xjuDEEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nR5xiODEEeidDIbdNiE_Nw" covered="_nR5xceDEEeidDIbdNiE_Nw" event="_LRFuYtNYEei9P8GIm1d02A" message="_nR5xjuDEEeidDIbdNiE_Nw"/>
-      <message xmi:id="_nR5xjODEEeidDIbdNiE_Nw" name="삭제(학수번호)" receiveEvent="_nR5xheDEEeidDIbdNiE_Nw" sendEvent="_nR5xhODEEeidDIbdNiE_Nw" connector="_nR5xkeDEEeidDIbdNiE_Nw"/>
+      <message xmi:id="_nR5xjODEEeidDIbdNiE_Nw" name="삭제(학수번호, 학번)" receiveEvent="_nR5xheDEEeidDIbdNiE_Nw" sendEvent="_nR5xhODEEeidDIbdNiE_Nw" connector="_nR5xkeDEEeidDIbdNiE_Nw"/>
       <message xmi:id="_nR5xjuDEEeidDIbdNiE_Nw" name="삭제[1 ... 0...1]" messageSort="reply" receiveEvent="_nR5xiODEEeidDIbdNiE_Nw" sendEvent="_nR5xh-DEEeidDIbdNiE_Nw" connector="_nR5xkeDEEeidDIbdNiE_Nw"/>
     </ownedBehavior>
     <ownedAttribute xmi:id="_nR5xc-DEEeidDIbdNiE_Nw" name="관리자" type="_adeOcNNXEei9P8GIm1d02A"/>

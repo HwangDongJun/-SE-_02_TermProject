@@ -155,7 +155,7 @@
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_GK7CLODHEeidDIbdNiE_Nw" covered="_GK7CIuDHEeidDIbdNiE_Nw" start="_GK7CK-DHEeidDIbdNiE_Nw" finish="_GK7CLeDHEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GK7CLeDHEeidDIbdNiE_Nw" covered="_GK7CIuDHEeidDIbdNiE_Nw" event="_jSgmMNM7EeiqXYArpdIGdw" message="_GK7COODHEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GK7CLuDHEeidDIbdNiE_Nw" covered="_GK7CIeDHEeidDIbdNiE_Nw" event="_jSgmMdM7EeiqXYArpdIGdw" message="_GK7COODHEeidDIbdNiE_Nw"/>
-      <message xmi:id="_GK7CNeDHEeidDIbdNiE_Nw" name="수강 신청(학수번호)" receiveEvent="_GK7CK-DHEeidDIbdNiE_Nw" sendEvent="_GK7CKuDHEeidDIbdNiE_Nw" connector="_GK7COuDHEeidDIbdNiE_Nw"/>
+      <message xmi:id="_GK7CNeDHEeidDIbdNiE_Nw" name="수강 신청(학수번호,학번)" receiveEvent="_GK7CK-DHEeidDIbdNiE_Nw" sendEvent="_GK7CKuDHEeidDIbdNiE_Nw" connector="_GK7COuDHEeidDIbdNiE_Nw"/>
       <message xmi:id="_GK7COODHEeidDIbdNiE_Nw" name="신청 완료[1 ... 0...1]" messageSort="reply" receiveEvent="_GK7CLuDHEeidDIbdNiE_Nw" sendEvent="_GK7CLeDHEeidDIbdNiE_Nw" connector="_GK7COuDHEeidDIbdNiE_Nw"/>
     </ownedBehavior>
     <ownedAttribute xmi:id="_GK7CI-DHEeidDIbdNiE_Nw" name="학생" type="_bO-NkNM7EeiqXYArpdIGdw"/>
@@ -224,7 +224,7 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GZqo0uDHEeidDIbdNiE_Nw" covered="_GZqowuDHEeidDIbdNiE_Nw" event="_7DDNwNM8EeiqXYArpdIGdw" message="_GZqo1ODHEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GZqo0-DHEeidDIbdNiE_Nw" covered="_GZqoweDHEeidDIbdNiE_Nw" event="_7DDNwdM8EeiqXYArpdIGdw" message="_GZqo1ODHEeidDIbdNiE_Nw"/>
       <message xmi:id="_GZqo1ODHEeidDIbdNiE_Nw" name="취소[1 ... 0...1]" messageSort="reply" receiveEvent="_GZqo0-DHEeidDIbdNiE_Nw" sendEvent="_GZqo0uDHEeidDIbdNiE_Nw" connector="_GZqo2uDHEeidDIbdNiE_Nw"/>
-      <message xmi:id="_GZqo2eDHEeidDIbdNiE_Nw" name="수강 취소(학수번호)" receiveEvent="_GZqo0ODHEeidDIbdNiE_Nw" sendEvent="_GZqoz-DHEeidDIbdNiE_Nw" connector="_GZqo2uDHEeidDIbdNiE_Nw"/>
+      <message xmi:id="_GZqo2eDHEeidDIbdNiE_Nw" name="수강 취소(학수번호, 학번)" receiveEvent="_GZqo0ODHEeidDIbdNiE_Nw" sendEvent="_GZqoz-DHEeidDIbdNiE_Nw" connector="_GZqo2uDHEeidDIbdNiE_Nw"/>
     </ownedBehavior>
     <ownedAttribute xmi:id="_GZqow-DHEeidDIbdNiE_Nw" name="학생" type="_bO-NkNM7EeiqXYArpdIGdw"/>
     <ownedAttribute xmi:id="_GZqoxODHEeidDIbdNiE_Nw" name="수강과목" type="_b_H4INM7EeiqXYArpdIGdw"/>

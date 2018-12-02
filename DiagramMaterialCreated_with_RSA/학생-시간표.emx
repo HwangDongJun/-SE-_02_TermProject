@@ -35,7 +35,7 @@
               </children>
             </children>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qh5fhNM-EeiqXYArpdIGdw" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qh5fhdM-EeiqXYArpdIGdw" x="793" y="793"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qh5fhdM-EeiqXYArpdIGdw" x="660" y="-132" width="25241" height="17701"/>
           </children>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_honI0NM-EeiqXYArpdIGdw" element="_hohpQNM-EeiqXYArpdIGdw" source="_d5ekoNM-EeiqXYArpdIGdw" target="_fSMrENM-EeiqXYArpdIGdw" fontName="맑은 고딕" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_honI0tM-EeiqXYArpdIGdw" type="MessageNameLabel">
@@ -102,7 +102,7 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jL8HUNM_EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" message="_jL7gQNM_EeiqXYArpdIGdw"/>
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jL8HUdM_EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" start="_jL8HUNM_EeiqXYArpdIGdw" finish="_jL8HUtM_EeiqXYArpdIGdw"/>
       <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_jL8HUtM_EeiqXYArpdIGdw" covered="_fSK14NM-EeiqXYArpdIGdw" event="_mwNUw9M-EeiqXYArpdIGdw" execution="_jL8HUdM_EeiqXYArpdIGdw"/>
-      <message xmi:id="_hohpQNM-EeiqXYArpdIGdw" name="시간표 조회" receiveEvent="_hoiQUdM-EeiqXYArpdIGdw" sendEvent="_hoiQUNM-EeiqXYArpdIGdw" connector="_hoi3YtM-EeiqXYArpdIGdw"/>
+      <message xmi:id="_hohpQNM-EeiqXYArpdIGdw" name="시간표 조회(학번)" receiveEvent="_hoiQUdM-EeiqXYArpdIGdw" sendEvent="_hoiQUNM-EeiqXYArpdIGdw" connector="_hoi3YtM-EeiqXYArpdIGdw"/>
       <message xmi:id="_hoi3YNM-EeiqXYArpdIGdw" name="시간표(과목명, 강의시간, 요일)[1 ... 0...1]" messageSort="reply" receiveEvent="_hoi3YdM-EeiqXYArpdIGdw" sendEvent="_hoiQU9M-EeiqXYArpdIGdw" connector="_hoi3YtM-EeiqXYArpdIGdw"/>
       <message xmi:id="_mwMtsNM-EeiqXYArpdIGdw" name="시간표 생성" messageSort="asynchCall" receiveEvent="_mwNUwdM-EeiqXYArpdIGdw" sendEvent="_mwNUwNM-EeiqXYArpdIGdw" connector="_mwN70NM-EeiqXYArpdIGdw"/>
       <message xmi:id="_jL7gQNM_EeiqXYArpdIGdw" name="시간표 삭제" messageSort="asynchCall" receiveEvent="_jL8HUNM_EeiqXYArpdIGdw" sendEvent="_jL7gQdM_EeiqXYArpdIGdw" connector="_mwN70NM-EeiqXYArpdIGdw"/>

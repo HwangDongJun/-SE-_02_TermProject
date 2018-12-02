@@ -247,7 +247,7 @@
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XlbKKODHEeidDIbdNiE_Nw" covered="_XlRZIuDHEeidDIbdNiE_Nw" start="_XlbKJ-DHEeidDIbdNiE_Nw" finish="_XlbKKeDHEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XlbKKeDHEeidDIbdNiE_Nw" covered="_XlRZIuDHEeidDIbdNiE_Nw" message="_XlbKLuDHEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XlbKKuDHEeidDIbdNiE_Nw" covered="_XlRZIeDHEeidDIbdNiE_Nw" message="_XlbKLuDHEeidDIbdNiE_Nw"/>
-      <message xmi:id="_XlbKK-DHEeidDIbdNiE_Nw" name="학적 변동(주소, 사진, 전화번호)" receiveEvent="_XlbKJ-DHEeidDIbdNiE_Nw" sendEvent="_XlbKJuDHEeidDIbdNiE_Nw" connector="_XlbKL-DHEeidDIbdNiE_Nw"/>
+      <message xmi:id="_XlbKK-DHEeidDIbdNiE_Nw" name="학적 수정(주소, 사진, 전화번호)" receiveEvent="_XlbKJ-DHEeidDIbdNiE_Nw" sendEvent="_XlbKJuDHEeidDIbdNiE_Nw" connector="_XlbKL-DHEeidDIbdNiE_Nw"/>
       <message xmi:id="_XlbKLuDHEeidDIbdNiE_Nw" name="변동 완료[1 ... 1]" messageSort="reply" receiveEvent="_XlbKKuDHEeidDIbdNiE_Nw" sendEvent="_XlbKKeDHEeidDIbdNiE_Nw" connector="_XlbKL-DHEeidDIbdNiE_Nw"/>
     </ownedBehavior>
     <ownedAttribute xmi:id="_XlRZI-DHEeidDIbdNiE_Nw" name="학적" type="_tgCNUNM_EeiqXYArpdIGdw"/>
@@ -390,7 +390,7 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gm4jkODHEeidDIbdNiE_Nw" covered="_gmvZouDHEeidDIbdNiE_Nw" event="_5R6DcNNAEeiqXYArpdIGdw" message="_gm4jkuDHEeidDIbdNiE_Nw"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gm4jkeDHEeidDIbdNiE_Nw" covered="_gmvZoeDHEeidDIbdNiE_Nw" event="_5R6DcdNAEeiqXYArpdIGdw" message="_gm4jkuDHEeidDIbdNiE_Nw"/>
       <message xmi:id="_gm4jkuDHEeidDIbdNiE_Nw" name="변동 성공[1 ... 1]" messageSort="reply" receiveEvent="_gm4jkeDHEeidDIbdNiE_Nw" sendEvent="_gm4jkODHEeidDIbdNiE_Nw" connector="_gm4jmODHEeidDIbdNiE_Nw"/>
-      <message xmi:id="_gm4jluDHEeidDIbdNiE_Nw" name="학적 변동(성명, 학과, 주소, 사진, 전화번호, 주민등록번호)" receiveEvent="_gmvZsODHEeidDIbdNiE_Nw" sendEvent="_gmvZr-DHEeidDIbdNiE_Nw" connector="_gm4jmODHEeidDIbdNiE_Nw"/>
+      <message xmi:id="_gm4jluDHEeidDIbdNiE_Nw" name="학적 수정(학번,성명, 학과, 주소, 사진, 전화번호, 주민등록번호)" receiveEvent="_gmvZsODHEeidDIbdNiE_Nw" sendEvent="_gmvZr-DHEeidDIbdNiE_Nw" connector="_gm4jmODHEeidDIbdNiE_Nw"/>
     </ownedBehavior>
     <ownedAttribute xmi:id="_gmvZo-DHEeidDIbdNiE_Nw" name="관리자" type="_Ewmw0NNAEeiqXYArpdIGdw"/>
     <ownedAttribute xmi:id="_gmvZpODHEeidDIbdNiE_Nw" name="학적" type="_Fce_YNNAEeiqXYArpdIGdw"/>

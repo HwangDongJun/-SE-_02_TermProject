@@ -30,14 +30,14 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_vTg3FtHUEeiF1pt_OnlA7A" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_vTg3F9HUEeiF1pt_OnlA7A" type="Parent"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_vTg3GNHUEeiF1pt_OnlA7A" type="AttributeCompartment">
-          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_5eO-oNHUEeiF1pt_OnlA7A" value="0.48578342407743497"/>
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_5eO-oNHUEeiF1pt_OnlA7A" value="0.5413049565947914"/>
         </children>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_vTg3GdHUEeiF1pt_OnlA7A" type="OperationCompartment">
-          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_5ePlsNHUEeiF1pt_OnlA7A" value="0.514216575922565"/>
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_5ePlsNHUEeiF1pt_OnlA7A" value="0.4586950434052086"/>
         </children>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_vTg3GtHUEeiF1pt_OnlA7A" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vTg3G9HUEeiF1pt_OnlA7A" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vTg3EtHUEeiF1pt_OnlA7A" x="792" y="9369" width="5486" height="7350"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vTg3EtHUEeiF1pt_OnlA7A" x="792" y="8839" width="5486" height="7880"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_WP8aAdHWEeiF1pt_OnlA7A" element="_WP8aANHWEeiF1pt_OnlA7A" fontName="맑은 고딕" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_WP8aA9HWEeiF1pt_OnlA7A" type="ImageCompartment">
@@ -84,7 +84,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_fYlkGdHXEeiF1pt_OnlA7A" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_fYlkGtHXEeiF1pt_OnlA7A" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_fYlkG9HXEeiF1pt_OnlA7A" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fYlkEtHXEeiF1pt_OnlA7A" x="17556" width="5464" height="6169"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fYlkEtHXEeiF1pt_OnlA7A" x="17556" y="-397" width="5464" height="6566"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_g40LQdHYEeiF1pt_OnlA7A" element="_g40LQNHYEeiF1pt_OnlA7A" fontName="맑은 고딕" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_g40LQ9HYEeiF1pt_OnlA7A" type="ImageCompartment">
@@ -94,10 +94,10 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_g40LRtHYEeiF1pt_OnlA7A" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_g40LR9HYEeiF1pt_OnlA7A" type="Parent"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_g40LSNHYEeiF1pt_OnlA7A" type="AttributeCompartment">
-          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_kp_W0NHYEeiF1pt_OnlA7A" value="0.43307314252674184"/>
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_kp_W0NHYEeiF1pt_OnlA7A" value="0.5862966175195143"/>
         </children>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_g40LSdHYEeiF1pt_OnlA7A" type="OperationCompartment">
-          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_kp_W0dHYEeiF1pt_OnlA7A" value="0.5669268574732582"/>
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_kp_W0dHYEeiF1pt_OnlA7A" value="0.4137033824804857"/>
         </children>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_g40LStHYEeiF1pt_OnlA7A" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_g40LS9HYEeiF1pt_OnlA7A" visible="false" type="StructureCompartment"/>
@@ -111,14 +111,14 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_GvSBJtHZEeiF1pt_OnlA7A" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_GvSBJ9HZEeiF1pt_OnlA7A" type="Parent"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_GvSBKNHZEeiF1pt_OnlA7A" type="AttributeCompartment">
-          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_JWNnINHZEeiF1pt_OnlA7A" value="0.6388786425673183"/>
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_JWNnINHZEeiF1pt_OnlA7A" value="0.5658428624123939"/>
         </children>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_GvSBKdHZEeiF1pt_OnlA7A" type="OperationCompartment">
-          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_JWNnIdHZEeiF1pt_OnlA7A" value="0.36112135743268164"/>
+          <layoutConstraint xmi:type="notation:Ratio" xmi:id="_JWNnIdHZEeiF1pt_OnlA7A" value="0.43415713758760605"/>
         </children>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_GvSBKtHZEeiF1pt_OnlA7A" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_GvSBK9HZEeiF1pt_OnlA7A" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GvSBItHZEeiF1pt_OnlA7A" x="26136" y="396" width="5473" height="6160"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GvSBItHZEeiF1pt_OnlA7A" x="26136" y="-1058" width="5473" height="7880"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_wlMIEdHZEeiF1pt_OnlA7A" element="_wlMIENHZEeiF1pt_OnlA7A" fontName="맑은 고딕" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_wlMIE9HZEeiF1pt_OnlA7A" type="ImageCompartment">
@@ -501,6 +501,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c_s889HeEeiF1pt_OnlA7A" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c_s88tHeEeiF1pt_OnlA7A" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_5BO5MPFHEeizLMqwmwMYWw" name="학번" visibility="private"/>
     <ownedOperation xmi:id="_5ODegNHdEeiF1pt_OnlA7A" name="신청"/>
     <ownedOperation xmi:id="_5TRVsNHdEeiF1pt_OnlA7A" name="취소"/>
     <ownedOperation xmi:id="_5XS6ENHdEeiF1pt_OnlA7A" name="등록"/>
@@ -572,6 +573,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_elGNc9HeEeiF1pt_OnlA7A" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_elGNctHeEeiF1pt_OnlA7A" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_1ak7kPFHEeizLMqwmwMYWw" name="학번" visibility="private"/>
     <ownedOperation xmi:id="_oA4n4NHdEeiF1pt_OnlA7A" name="조회_관리자"/>
     <ownedOperation xmi:id="_oQRHsNHdEeiF1pt_OnlA7A" name="조회_학생"/>
     <ownedOperation xmi:id="_ohvSMNHdEeiF1pt_OnlA7A" name="수정"/>
@@ -606,6 +608,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bylpk9HeEeiF1pt_OnlA7A" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bylpktHeEeiF1pt_OnlA7A" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_Aku08PFKEeizLMqwmwMYWw" name="학번" visibility="private"/>
     <ownedOperation xmi:id="_mewOINHaEeiF1pt_OnlA7A" name="조회"/>
     <ownedOperation xmi:id="_o-iqUNHaEeiF1pt_OnlA7A" name="생성"/>
     <ownedOperation xmi:id="_qxCisNHaEeiF1pt_OnlA7A" name="삭제"/>
@@ -627,9 +630,12 @@
     </ownedAttribute>
     <ownedAttribute xmi:id="_X552IOJYEeiLVp3LmgQU2A" name="주민등록번호" visibility="private"/>
     <ownedOperation xmi:id="_ihfj0NHZEeiF1pt_OnlA7A" name="등록"/>
-    <ownedOperation xmi:id="_iofjsNHZEeiF1pt_OnlA7A" name="변동"/>
-    <ownedOperation xmi:id="_vYWhgNHZEeiF1pt_OnlA7A" name="조회"/>
+    <ownedOperation xmi:id="_iofjsNHZEeiF1pt_OnlA7A" name="수정_관리자"/>
+    <ownedOperation xmi:id="_vYWhgNHZEeiF1pt_OnlA7A" name="수정_학생"/>
     <ownedOperation xmi:id="_RsPzENHbEeiF1pt_OnlA7A" name="학번 부여"/>
+    <ownedOperation xmi:id="_G1S-oPFLEeizLMqwmwMYWw" name="조회_관리자"/>
+    <ownedOperation xmi:id="_G6zwwPFLEeizLMqwmwMYWw" name="조회_학생"/>
+    <ownedOperation xmi:id="_dLHxIPFLEeizLMqwmwMYWw" name="삭제"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_wlMIENHZEeiF1pt_OnlA7A" name="장학생">
     <ownedAttribute xmi:id="_y_GlwNHZEeiF1pt_OnlA7A" name="이름" visibility="private"/>

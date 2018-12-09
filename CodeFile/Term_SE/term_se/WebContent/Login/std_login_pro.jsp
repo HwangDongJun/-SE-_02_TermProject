@@ -27,7 +27,7 @@ boolean k = lg.Std_login(id, pwd);
 	
 	
 	<%if(k == true){
-	pageContext.forward("admin_login.jsp");%>		
+	pageContext.forward("../User.jsp");%>		
 		
 	 <%} else {%>
 	

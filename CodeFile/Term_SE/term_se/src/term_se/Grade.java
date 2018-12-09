@@ -83,7 +83,7 @@ public class Grade {
 		return true;
 	}
 	
-	public ArrayList Adm_grade_search(String p_std_id , String p_std_subnum) throws IOException {
+	public ArrayList Adm_grade_search(String p_std_id) throws IOException {
 		ArrayList<grade_Node> std_grade_list = grade_list_load();
 		
 		ArrayList<grade_Node> grade_list = new ArrayList<grade_Node>();
@@ -126,14 +126,15 @@ public class Grade {
 			if ((std_grade_list.get(i).Std_id).equals(p_Std_id)) {
 				std_grade_list.remove(i);
 				break;
+			} 
+				
+			if (i == std_grade_list.size()-1) {
+				return false;
 			}
+			
 
 		}
-		// 없다면 false
-		if (i == std_grade_list.size()) {
-			return false;
-		}
-
+		
 		std_grade_add(std_grade_list);
 
 		return true;
@@ -193,14 +194,4 @@ public class Grade {
 
 }
 
-class grade_Node {
-	String Std_id = null;
-	String Std_point = null;
-	String Std_score = null;
-	String Std_grade = null;
-	String Std_Cur = null;
-	String Std_subject = null;
-	String Std_subnum = null;
-	String Std_date = null;
 
-}

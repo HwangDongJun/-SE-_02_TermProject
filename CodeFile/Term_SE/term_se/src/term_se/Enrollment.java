@@ -25,14 +25,13 @@ public class Enrollment {
 		
 		String id = "";
 		
-		ArrayList<subject_Node> subject_list = new ArrayList<subject_Node>();
 		
 		String[] temp;
 		String[] temp2;
 		while ((line = BR.readLine()) != null) {
 			enrolment_list = new ArrayList();
 			enrol_std = new ArrayList();
-			
+		
 			
 			temp = line.split(",");
 			// key
@@ -45,14 +44,20 @@ public class Enrollment {
 			enrolment_list.add(temp[4]);
 			enrolment_list.add(temp[5]);
 			enrolment_list.add(temp[6]);
-			enrolment_list.add(temp[7]);
-			
 			// 학번
-			temp2 = temp[8].split(" ");
 			
-			for(int i = 0 ; i< temp2.length; i++) {
-				enrol_std.add(temp2[i]);
-			}
+			if(!temp[7].equals(" ")) {
+				temp2 = temp[7].split(" ");
+				
+				System.out.println(temp2.length);
+			
+				for(int i = 0 ; i< temp2.length; i++) {
+					enrol_std.add(temp2[i]);
+				}
+			} 
+				
+			
+		
 			enrolment_map.put(id, new enroll_AL(enrolment_list, enrol_std));
 		}
 		return enrolment_map;
@@ -61,19 +66,19 @@ public class Enrollment {
 
 	// 신청
 	public boolean Enrol(String p_sub_num, String p_std_id) throws IOException {
-		HashMap<String, enroll_AL> enrolment_map = enrolment_list_load();
+		HashMap<String, enroll_AL> enrolment_list_map = enrolment_list_load();
 
 		// 신청 조건
-		if(enrolment_map.containsKey(p_sub_num) &&
-				enrolment_map.get(p_sub_num).enrol_std.size() < ((int)enrolment_map.get(p_sub_num).enrolment_list.get(2))
-				&& !enrolment_map.get(p_sub_num).enrol_std.contains(p_std_id)) {
+		if(enrolment_list_map.containsKey(p_sub_num) &&
+				enrolment_list_map.get(p_sub_num).enrol_std.size() < (Integer.parseInt(String.valueOf(enrolment_list_map.get(p_sub_num).enrolment_list.get(1))))
+				&& !enrolment_list_map.get(p_sub_num).enrol_std.contains(p_std_id)) {
 			
 			// 학생 리스트에 추가
-			enrolment_map.get(p_sub_num).enrol_std.add(p_std_id);
+			enrolment_list_map.get(p_sub_num).enrol_std.add(p_std_id);
 			// index 1 : 현재 정원을 현재 인원으로 최신화
-			enrolment_map.get(p_sub_num).enrolment_list.set(1, enrolment_map.get(p_sub_num).enrol_std.size());
+			enrolment_list_map.get(p_sub_num).enrolment_list.set(0, enrolment_list_map.get(p_sub_num).enrol_std.size());
 			
-			enrolment_list_add(enrolment_map);
+			Enrol_add(enrolment_list_map);
 			
 			return true;
 		}
@@ -81,69 +86,174 @@ public class Enrollment {
 		return false;
 		
 	}
-	
-	
 
-	// 장학생 삭제
-	public boolean Sch_del(String id) throws IOException {
-		ArrayList<SchNode> std_sch_list = Adm_Sch_load();
+		public boolean Enrol_cancel(String p_sub_num, String p_std_id) throws IOException {
+			HashMap<String, enroll_AL> enrolment_list_map = enrolment_list_load();
 
-		int i = 0;
-		for (i = 0; i < std_sch_list.size(); i++) {
-			// 중복시 제거
-			if ((std_sch_list.get(i).std_id).equals(id)) {
-				std_sch_list.remove(i);
-				break;
+			// 
+			if(enrolment_list_map.containsKey(p_sub_num) && 
+					enrolment_list_map.get(p_sub_num).enrol_std.contains(p_std_id)) {
+				System.out.println(p_std_id);
+				enrolment_list_map.get(p_sub_num).enrol_std.remove(p_std_id);
+			
+				// 현재 인원 갱신.
+				enrolment_list_map.get(p_sub_num).enrolment_list.set(0, enrolment_list_map.get(p_sub_num).enrol_std.size());
+				
+				Enrol_add(enrolment_list_map);
+				
+				return true;
 			}
-
-		}
-		// 없다면 false
-		if (i == std_sch_list.size()) {
 			return false;
 		}
+		
+		// 조회
+		public HashMap<String, enroll_AL> Std_Enrol_search( String p_std_id) throws IOException {
+			
+			HashMap<String, enroll_AL> enrolment_list_map = enrolment_list_load();
+			
+			// ArrayList<subject_Node> subject_list = subject_list_load();
+			
+			HashMap<String, enroll_AL> enrolment_map = new HashMap<String, enroll_AL>();
 
-		Sch_add(std_sch_list);
-
-		return true;
-	}
-
-	// 장학생 수정
-	public boolean Sch_mod(String id, String name, String type, String money) throws IOException {
-		ArrayList<SchNode> std_sch_list = Adm_Sch_load();
-
-		int i = 0;
-		for (i = 0; i < std_sch_list.size(); i++) {
-			// 중복시 수정
-			if ((std_sch_list.get(i).std_id).equals(id)) {
-				std_sch_list.get(i).std_name = name;
-				std_sch_list.get(i).std_type = type;
-				std_sch_list.get(i).std_money = money;
-				break;
-			} else {
-				// 없다면 false
-				if (i == std_sch_list.size()) {
-					return false;
+			
+			for(String keys : enrolment_list_map.keySet()){
+				//  학번이 신청 되어있는  학수번호
+				if(enrolment_list_map.get(keys).enrol_std.contains(p_std_id)) {
+					enrolment_map.put(keys, enrolment_list_map.get(keys));
 				}
-
+			}
+				
+			return enrolment_map;
+		}
+		
+		public boolean Enrol_del(String p_sub_num) throws IOException {
+			
+			HashMap<String, enroll_AL> enrolment_list_map = enrolment_list_load();
+			
+			// ArrayList<subject_Node> subject_list = subject_list_load();
+			
+			if(enrolment_list_map.containsKey(p_sub_num)) {
+				enrolment_list_map.remove(p_sub_num);
+				
+				Enrol_add(enrolment_list_map);
+				return true;
+				
+			} else {
+				
+				return false;
 			}
 		}
+		
+		// 등록
+		public boolean Enrol_reg(String p_sub_num, String p_sub_name, String p_sub_prof, String p_date,
+				int p_max_num, int p_enrol_count, String p_lect_room) throws IOException {
+			HashMap<String, enroll_AL> enrolment_list_map = enrolment_list_load();
 
-		Sch_add(std_sch_list);
+			// 
+			
+			// 이미 등록되어 있다면 false
+			if(enrolment_list_map.containsKey(p_sub_num)) {
+				return false;
+			}
+			
+			// 학수번호가 등록이 안되어있는 상태
+			for(String keys : enrolment_list_map.keySet()){
 
-		return true;
-	}
+				// 둘다 있으면 안됨 - > false
+				// 강의실이 존재할 경우 
+				if(enrolment_list_map.get(keys).enrolment_list.contains(p_lect_room)) {
+					
+					// p_date 와 비교
+					String time = (String) enrolment_list_map.get(keys).enrolment_list.get(3);
+					
+					String[] p_input_date = p_date.split(" ");
+					String[] p_t = time.split(" ");
+				
+				
+					// time 양식을 가정 : M 13 15 
+					// 요일 여부 확인 -> 
+					if(p_input_date[0].equals(p_t[0])) {
+						// 들어온 처음시간이 저장된 처음시간보다 작을 때 
+						if(Integer.parseInt(p_input_date[1]) <Integer.parseInt(p_t[1])) {
+							
+							if(Integer.parseInt(p_input_date[2]) <= Integer.parseInt(p_t[2])) {
+								continue;
+							// 시간이 중복될때
+							} else {
+								return false;
+							}
+						// 들어온 처음시간이 저장된 처음시간보다 클 때
+						} else {
+							if(Integer.parseInt(p_input_date[1]) >= Integer.parseInt(p_t[2])) {
+								continue;
+								
+							// 시간이 중복될때
+							} else {
+								return false;
+							}
+						}
+					}
+				
+				}
+			}
+			
+			// 중복되는 것이 없다면 정상적으로 통과
+			
+			String id = p_sub_num;
+			
+			ArrayList enrolment_list = new ArrayList();
+			ArrayList enrol_std = new ArrayList();
+			
+			
+			enrolment_list.add(p_enrol_count);
+			enrolment_list.add(p_max_num);
+			enrolment_list.add(p_sub_name);
+			enrolment_list.add(p_date);
+			enrolment_list.add(p_lect_room);
+			enrolment_list.add(p_sub_prof);
+			
+			enrolment_list_map.put(id, new enroll_AL(enrolment_list, enrol_std));
+			
+			Enrol_add(enrolment_list_map);
+		
+			return true;
+		}
+		
+		// 조회
+		public HashMap<String, enroll_AL> Adm_Enrol_search() throws IOException {
+			
+			HashMap<String, enroll_AL> enrolment_list_map = enrolment_list_load();
+				
+			return enrolment_list_map;
+		}
+		
 
-	public void Sch_add(ArrayList<SchNode> p_std_sch_list) throws IOException {
-		String filePath = "C:\\Users\\Sims\\workspace\\term_se\\WebContent\\Scholarship\\Sch_list.txt";
+
+	public void Enrol_add(HashMap<String, enroll_AL> enrolment_list_map) throws IOException {
+		String filePath = "C:\\Users\\Sims\\workspace\\term_se\\WebContent\\Enrolment\\enrolment_list.txt";
 		BufferedWriter BW = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath), "UTF8"));
-		String line;
-		for (int i = 0; i < p_std_sch_list.size(); i++) {
-
-			line = p_std_sch_list.get(i).std_id + "," + p_std_sch_list.get(i).std_name + ","
-					+ p_std_sch_list.get(i).std_type + "," + p_std_sch_list.get(i).std_money;
+		String line = "";
+		
+		
+		for(String keys : enrolment_list_map.keySet()){
+			line =  keys + "," + enrolment_list_map.get(keys).enrolment_list.get(0)+ "," +
+					enrolment_list_map.get(keys).enrolment_list.get(1)+ "," +enrolment_list_map.get(keys).enrolment_list.get(2)+ "," +
+					enrolment_list_map.get(keys).enrolment_list.get(3)+ "," +enrolment_list_map.get(keys).enrolment_list.get(4)+ "," +
+					enrolment_list_map.get(keys).enrolment_list.get(5)+ ",";
+			
+			for(int i = 0; i < enrolment_list_map.get(keys).enrol_std.size(); i++) {
+				line += enrolment_list_map.get(keys).enrol_std.get(i) + " ";
+			}
+			
+			if(enrolment_list_map.get(keys).enrol_std.size() !=0) {
+				line = line.substring(0, line.length()-1);
+			} else {
+				line += " ";
+			}
+			
+			
 			BW.write(line);
 			BW.newLine();
-
 		}
 		BW.flush();
 	}
@@ -151,17 +261,6 @@ public class Enrollment {
 
 }
 
-class enroll_AL{
-	ArrayList enrolment_list = new ArrayList();
-	ArrayList enrol_std = new ArrayList();
-	
-	enroll_AL(ArrayList enrolment_list, ArrayList enrol_std){
-		this.enrolment_list = enrolment_list;
-		this.enrol_std = enrol_std;
-	}
-	
-	enroll_AL(){}
-}
 
 /**
  * id

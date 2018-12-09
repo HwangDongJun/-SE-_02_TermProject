@@ -68,7 +68,11 @@ public class Student_information {
 		String[] s1 = p_std_private_num.split("-");
 
 		int result = Integer.parseInt(s1[1]) % Integer.parseInt(s1[0]);
-
+		
+		while(result < 100) {
+			result =  result*10;
+		}
+		
 		String id = p_entrance + MajorTable.get(p_std_major) + Integer.toString(result).substring(0, 3);
 
 		return id;
@@ -134,7 +138,7 @@ public class Student_information {
 			// 중복시 false
 			if ((std_info_list.get(i).std_id).equals(p_std_id)) {
 				std_info_list.get(i).std_major = p_std_major;
-				std_info_list.get(i).std_name = p_std_major;
+				std_info_list.get(i).std_name = p_std_name;
 				std_info_list.get(i).std_image = p_std_image;
 				std_info_list.get(i).std_phone_number = p_std_phone_num;
 				std_info_list.get(i).std_address = p_std_address;
@@ -169,7 +173,7 @@ public class Student_information {
 		ArrayList<Student> std_info_list = Std_infolist_load();
 		ArrayList sch_list = new ArrayList();
 
-		for (int i = 0; i < sch_list.size(); i++) {
+		for (int i = 0; i < std_info_list.size(); i++) {
 			if ((std_info_list.get(i).std_id).equals(p_std_id)) {
 				Student std = new Student();
 				std.std_id = std_info_list.get(i).std_id;
@@ -205,14 +209,4 @@ public class Student_information {
 		BW.flush();
 	}
 
-}
-
-class Student {
-	String std_id = "";
-	String std_name = "";
-	String std_major = "";
-	String std_image = "";
-	String std_phone_number = "";
-	String std_private_num = "";
-	String std_address = "";
 }

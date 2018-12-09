@@ -9,11 +9,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
-public class Shcolarship {
+public class Scholarship {
 
 	// 관리자_장학생목록 불러오기
 	public ArrayList Adm_Sch_load() throws IOException {
-		String filePath = "C:\\Users\\Sims\\workspace\\term_se\\WebContent\\Scholarship\\Sch_list.txt";
+		String filePath = "C:\\Users\\Sims\\workspace\\term_se\\WebContent\\Scholar\\Sch_list.txt";
 		BufferedReader BR = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), "UTF8"));
 		String line = null;
 		ArrayList Sch_list = new ArrayList();
@@ -44,7 +44,7 @@ public class Shcolarship {
 		ArrayList std_sch_list = Adm_Sch_load();
 		ArrayList sch_list = new ArrayList();
 
-		for (int i = 0; i < sch_list.size(); i++) {
+		for (int i = 0; i < std_sch_list.size(); i++) {
 
 			if (id.equals(((SchNode) std_sch_list.get(i)).std_id)) {
 
@@ -97,11 +97,14 @@ public class Shcolarship {
 				std_sch_list.remove(i);
 				break;
 			}
+			// 없다면 false
+			else {
+				if (i == std_sch_list.size() - 1) {
 
-		}
-		// 없다면 false
-		if (i == std_sch_list.size()) {
-			return false;
+					return false;
+				}
+			}
+
 		}
 
 		Sch_add(std_sch_list);
@@ -123,7 +126,7 @@ public class Shcolarship {
 				break;
 			} else {
 				// 없다면 false
-				if (i == std_sch_list.size()) {
+				if (i == std_sch_list.size() - 1) {
 					return false;
 				}
 
@@ -136,7 +139,7 @@ public class Shcolarship {
 	}
 
 	public void Sch_add(ArrayList<SchNode> p_std_sch_list) throws IOException {
-		String filePath = "C:\\Users\\Sims\\workspace\\term_se\\WebContent\\Scholarship\\Sch_list.txt";
+		String filePath = "C:\\Users\\Sims\\workspace\\term_se\\WebContent\\Scholar\\Sch_list.txt";
 		BufferedWriter BW = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath), "UTF8"));
 		String line;
 		for (int i = 0; i < p_std_sch_list.size(); i++) {
@@ -150,11 +153,4 @@ public class Shcolarship {
 		BW.flush();
 	}
 
-}
-
-class SchNode {
-	String std_name = null;
-	String std_id = null;
-	String std_type = null;
-	String std_money = null;
 }

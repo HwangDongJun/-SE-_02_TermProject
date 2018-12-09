@@ -75,12 +75,12 @@ public class Subject {
 			int i = 0;
 			for (i = 0; i < subject_list.size(); i++) {
 				// 중복시 제거
-				if ((subject_list.get(i).Sub_name).equals(p_Std_subnum)) {
+				if ((subject_list.get(i).Sub_num).equals(p_Std_subnum)) {
 					subject_list.remove(i);
 					break;
 				} else {
 					// 없다면 false
-					if (i == subject_list.size()) {
+					if (i == subject_list.size()-1) {
 						return false;
 					}
 				}
@@ -167,16 +167,4 @@ public class Subject {
 		BW.flush();
 	}
 
-}
-
-
-
-class subject_Node {
-	int Point = 0;
-	String Sub_name = null;
-	String Major = null;
-	String Date = null;
-	String Prof_name = null;
-	String Std_size = null;
-	String Sub_num = null;
 }

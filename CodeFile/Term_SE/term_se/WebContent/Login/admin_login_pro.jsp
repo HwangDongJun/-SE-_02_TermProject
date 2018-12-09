@@ -26,7 +26,12 @@ boolean k = lg.Adm_login(id, pwd);
 	
 	
 	<%if(k == true){
-	pageContext.forward("std_login.jsp");
+		%>
+		<script>
+		
+		location.href = "../Admin.jsp"; </script>
+
+	<%
 	} else {%>
 	
 	 <script> alert("아이디와 비밀번호가 일치하지 않습니다!");
